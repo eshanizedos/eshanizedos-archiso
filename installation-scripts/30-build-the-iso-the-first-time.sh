@@ -49,7 +49,7 @@ echo
 
 	echo "################################################################## "
 	echo "Building the desktop                   : "$desktop
-	echo "Building version                       : "$arcolinuxVersion
+	echo "Building version                       : "$eshanizedVersion
 	echo "Iso label                              : "$isoLabel
 	echo "Do you have the right archiso version? : "$archisoVersion
 	echo "What is the required archiso version?  : "$archisoRequiredVersion
@@ -173,7 +173,7 @@ echo
 
 	echo "Getting the last version of bashrc in /etc/skel"
 	echo
-	wget https://raw.githubusercontent.com/arcolinux/arcolinux-root/master/etc/skel/.bashrc-latest -O $buildFolder/archiso/airootfs/etc/skel/.bashrc
+	wget https://raw.githubusercontent.com/eshanizedos/eshanizedos-root/master/etc/skel/.bashrc -O $buildFolder/archiso/airootfs/etc/skel/.bashrc
 
 	echo "Removing the old packages.x86_64 file from build folder"
 	rm $buildFolder/archiso/packages.x86_64
@@ -211,18 +211,18 @@ echo
 	#Setting variables
 
 	#profiledef.sh
-	oldname1='iso_name="arcolinuxs-lts'
-	newname1='iso_name="arcolinuxs-lts'
+	oldname1='iso_name="eshanizedos'
+	newname1='iso_name="eshanizedos'
 
-	oldname2='iso_label="arcolinuxs-lts'
-	newname2='iso_label="arcolinuxs-lts'
+	oldname2='iso_label="eshanizedos'
+	newname2='iso_label="eshanizedos'
 
-	oldname3='ArcoLinuxS-Lts'
-	newname3='ArcoLinuxS-Lts'
+	oldname3='eshanizedos'
+	newname3='eshanizedos'
 
 	#hostname
-	oldname4='ArcoLinuxS-Lts'
-	newname4='ArcoLinuxS-Lts'
+	oldname4='eshanizedos'
+	newname4='eshanizedos'
 
 	#sddm.conf user-session
 	oldname5='Session=xfce'
