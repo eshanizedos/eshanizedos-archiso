@@ -29,14 +29,14 @@ echo
 	desktop="xfce"
 	dmDesktop="xfce"
 
-	arcolinuxVersion='v23.11.02'
+	eshanizedVersion='vector'
 
-	isoLabel='arcolinuxs-zen-'$arcolinuxVersion'-x86_64.iso'
+	isoLabel='eshanizedos-'$eshanizedVersion'-x86_64.iso'
 
 	# setting of the general parameters
 	archisoRequiredVersion="archiso 73-1"
-	buildFolder=$HOME"/arcolinux-build"
-	outFolder=$HOME"/ArcoLinux-Out"
+	buildFolder=$HOME"/eshanized-build"
+	outFolder=$HOME"/Eshanized-Out"
 	archisoVersion=$(sudo pacman -Q archiso)
 	
 	# If you are ready to use your personal repo and personal packages
