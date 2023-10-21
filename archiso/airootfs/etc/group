@@ -1,0 +1,16 @@
+root:x:0:root
+sys:x:3:bin,eshanized
+network:x:90:eshanized
+power:x:98:eshanized
+adm:x:999:eshanized
+wheel:x:998:eshanized
+uucp:x:987:eshanized
+optical:x:990:eshanized
+rfkill:x:983:eshanized
+video:x:986:eshanized
+storage:x:988:eshanized
+audio:x:995:eshanized
+users:x:985:eshanized
+nopasswdlogin:x:966:eshanized
+autologin:x:967:eshanized
+eshanized:x:1000:
