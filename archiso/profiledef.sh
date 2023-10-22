@@ -3,7 +3,7 @@
 
 iso_name="eshanizedos"
 iso_label="eshanizedos-v1.0"
-iso_publisher="Eshanized OS <http://www.arcolinux.info>"
+iso_publisher="Eshanized OS <https://eshanizedos.github.io>"
 iso_application="Eshanized OS Live/Rescue CD"
 iso_version="v1.0"
 install_dir="arch"
