@@ -277,10 +277,6 @@ alias fix-keyserver="[ -d ~/.gnupg ] || mkdir ~/.gnupg ; cp /etc/pacman.d/gnupg/
 alias fix-permissions="sudo chown -R $USER:$USER ~/.config ~/.local"
 
 
-#maintenance
-alias big="expac -H M '%m\t%n' | sort -h | nl"
-alias downgrada="sudo downgrade --ala-url https://ant.seedhost.eu/arcolinux/"
-
 #hblock (stop tracking with hblock)
 #use unhblock to stop using hblock
 alias unhblock="hblock -S none -D none"
@@ -292,9 +288,6 @@ alias sysfailed="systemctl list-units --failed"
 #shutdown or reboot
 alias ssn="sudo shutdown now"
 alias sr="reboot"
-
-#update betterlockscreen images
-alias bls="betterlockscreen -u /usr/share/backgrounds/arcolinux/"
 
 #give the list of all installed desktops - xsessions desktops
 alias xd="ls /usr/share/xsessions"
@@ -349,18 +342,6 @@ alias lta="leftwm-theme apply"
 alias ltupd="leftwm-theme update"
 alias ltupg="leftwm-theme upgrade"
 
-#arcolinux applications
-#att is a symbolic link now
-#alias att="archlinux-tweak-tool"
-alias adt="arcolinux-desktop-trasher"
-alias abl="arcolinux-betterlockscreen"
-alias agm="arcolinux-get-mirrors"
-alias amr="arcolinux-mirrorlist-rank-info"
-alias aom="arcolinux-osbeck-as-mirror"
-alias ars="arcolinux-reflector-simple"
-alias atm="arcolinux-tellme"
-alias avs="arcolinux-vbox-share"
-alias awa="arcolinux-welcome-app"
 
 #git
 alias rmgitcache="rm -r ~/.cache/git"
