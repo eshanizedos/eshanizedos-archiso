@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+echo "###################################"
+echo ""
+echo "###################################"
+
+yes | rm -rf /etc/pacman.d/gnupg/* || echo "Cannot delete gnupg/*"
+pacman-key --init || echo "Error initializing keys"
+pacman-key --recv-key D424656CF949AE36665CC3AA9E2962C3B5468035 || echo "Error receiving key"
+pacman-key --lsign-key D424656CF949AE36665CC3AA9E2962C3B5468035 || echo "Error locally signing key"
+pacman-key --populate archlinux || echo "Error populating 'archlinux'"
+pacman-key --populate eshanizedos || echo "Error populating 'eshanizedos'"
+pacman -Syy
+
+pacman-key --init
+pacman-key --populate
+
+echo "###################################"
+echo ""
+echo "###################################"
+rm /usr/local/bin/eshanizedos-first
