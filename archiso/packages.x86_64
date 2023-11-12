@@ -60,6 +60,7 @@ xorg-xinit
 ########## E S H A N I Z E D ##########
 #######################################
 calamares
+eshanizedos-calamares-config
 dracula-cursors
 fluent-icon-theme
 orchis-theme
