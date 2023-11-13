@@ -3,7 +3,7 @@
 #######################################
 
 amd-ucode
-aic94xx
+aic94xx-firmware
 arch-install-scripts
 base
 broadcom-wl-dkms
