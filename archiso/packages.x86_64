@@ -16,8 +16,8 @@ grub
 inetutils
 intel-ucode
 linux-firmware
-linux-lts
-linux-lts-headers
+linux
+linux-headers
 lvm2
 mesa
 mesa-utils
