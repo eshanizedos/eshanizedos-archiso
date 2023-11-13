@@ -2,7 +2,7 @@
 # shellcheck disable=SC2034
 
 iso_name="eshanizedos"
-iso_label="ARCH_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y%m)"
+iso_label="EshanizedOS_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y%m)"
 iso_publisher="Eshanized <https://eshanized.github.io>"
 iso_application="Eshanized OS Live/Rescue CD"
 iso_version="$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y.%m.%d)"
