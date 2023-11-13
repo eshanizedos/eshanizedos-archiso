@@ -93,6 +93,7 @@ reflector
 ufw
 vnstat
 wget
+sddm
 greetd
 greetd-qtgreet
 swayfx
