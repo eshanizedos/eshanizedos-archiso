@@ -3,9 +3,11 @@
 #######################################
 
 amd-ucode
+aic94xx
 arch-install-scripts
 base
 broadcom-wl-dkms
+bluez
 btrfs-progs
 dhcpcd
 dialog
