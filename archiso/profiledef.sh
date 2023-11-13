@@ -26,5 +26,4 @@ file_permissions=(
   ["/etc/grub.d/40_custom"]="0:0:755"
   ["/usr/local/bin/choose-mirror"]="0:0:755"
   ["/usr/local/bin/Installation_guide"]="0:0:755"
-  ["/usr/local/bin/livecd-sound"]="0:0:755"
 )
