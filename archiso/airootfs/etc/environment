@@ -7,5 +7,5 @@
 QT_QPA_PLATFORMTHEME=qt5ct
 QT_STYLE_OVERRIDE=kvantum
 EDITOR=nano
-BROWSER=waterfox
+BROWSER=firefox
 GTK_THEME=Orchis-Grey-Dark
