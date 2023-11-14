@@ -126,9 +126,6 @@ wpa_supplicant
 wvdial
 xfsprogs
 xl2tpd
-zsh
-
-
 xfsprogs
 xorg-server
 xorg-xinit
@@ -137,7 +134,7 @@ xorg-xinit
 ########## E S H A N I Z E D ##########
 #######################################
 calamares
-eshanizedos-calamares-config
+eshanizedos-calamares-sway
 ckbcomp
 xkeyboard-config
 upower
