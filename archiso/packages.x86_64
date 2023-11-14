@@ -291,3 +291,5 @@ nvidia-dkms
 nvidia-utils
 nvidia-settings
 starship
+snapper-tools
+sddm-sugar-candy-git
