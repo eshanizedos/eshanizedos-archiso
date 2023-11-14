@@ -45,6 +45,8 @@ alias sprs='sudo pacman -Rs'
 alias sprdd='sudo pacman -Rdd'
 alias spqo='sudo pacman -Qo'
 alias spsii='sudo pacman -Sii'
+alias install='sudo pacman -S'
+alias uninstall='sudo pacman -R'
 
 # show the list of packages that need this package - depends mpv as example
 function_depends()  {
