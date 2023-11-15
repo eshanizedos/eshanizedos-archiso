@@ -315,7 +315,7 @@ pipewire-jack
 ###lib32-pipewire-jack
 
 ####---->> Input
-input-devices-support
+###input-devices-support
 
 
 ####---->> Fonts
@@ -362,7 +362,7 @@ network-manager-applet
 ufw
 
 ####---->> INPUT
-gestures
+###gestures
 
 
 ####---->> E S H A N I Z E D O S
