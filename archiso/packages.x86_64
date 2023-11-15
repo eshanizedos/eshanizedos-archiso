@@ -168,6 +168,8 @@ wpa_supplicant
 wvdial
 xfsprogs
 xl2tpd
+alacritty
+alacritty-themes
 
 ####---->> GRUB + EFI
 efibootmgr
