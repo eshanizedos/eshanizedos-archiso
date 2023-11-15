@@ -312,7 +312,7 @@ pipewire-support
 wireplumber
 # Explicitly add pipewire-jack to avoid a conflict
 pipewire-jack
-lib32-pipewire-jack
+###lib32-pipewire-jack
 
 ####---->> Input
 input-devices-support
@@ -322,7 +322,7 @@ input-devices-support
 noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
-noto
+###noto
 ttf-dejavu
 ttf-fantasque-sans-mono
 ttf-fira-sans
