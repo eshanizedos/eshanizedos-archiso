@@ -498,7 +498,7 @@ ttf-ubuntu-font-family
 wlrobs-hg
 
 ####---->> INTERNET
-waterfox
+waterfox-bin
 xorg-server
 xorg-apps
 xorg-xinit
