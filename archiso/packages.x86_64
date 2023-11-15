@@ -319,9 +319,10 @@ input-devices-support
 
 
 ####---->> Fonts
-noto-fonts               
-noto-fonts-cjk           
-noto-fonts-emoji         
+noto-fonts
+noto-fonts-cjk
+noto-fonts-emoji
+noto
 ttf-dejavu
 ttf-fantasque-sans-mono
 ttf-fira-sans
