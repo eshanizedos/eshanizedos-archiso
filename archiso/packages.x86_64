@@ -303,7 +303,7 @@ btrfs-assistant
 
 ####---->> Network
 bluetooth-support
-networkmanager-support
+###networkmanager-support
 
 
 ####---->> Media
