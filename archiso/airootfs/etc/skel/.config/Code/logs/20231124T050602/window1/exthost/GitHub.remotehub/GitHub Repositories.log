@@ -1,0 +1,5 @@
+2023-11-24 05:06:35.447 [warning] Running on the desktop; workspaceId=; storageUri=vscode-userdata:/home/eshanized/.config/Code/User/globalStorage/github.remotehub
+2023-11-24 05:06:35.447 [info] [    2] ChangeStore.getWorkspacesWithChanges()
+2023-11-24 05:06:35.447 [info] [    2] ChangeStore.getWorkspacesWithChanges() took 0 ms
+2023-11-24 05:06:40.367 [info] [    6] GitHub.ensureAuthenticated
+2023-11-24 05:06:52.556 [warning] [    6] GitHub.ensureAuthenticated took 12190 ms

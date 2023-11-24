@@ -1,0 +1,21 @@
+2023-11-24 05:06:04.621 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-dotnettools.dotnet-interactive-vscode' wants API proposal 'languageConfigurationAutoClosingPairs' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-11-24 05:06:08.990 [info] [perf] Render performance baseline is 46ms
+2023-11-24 05:06:52.517 [info] Settings Sync: Updating due to change in sessions
+2023-11-24 05:38:00.411 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-dotnettools.dotnet-interactive-vscode' wants API proposal 'languageConfigurationAutoClosingPairs' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-11-24 05:38:03.528 [info] [perf] Render performance baseline is 38ms
+2023-11-24 05:39:53.994 [error] Error: Unknown error while installing extension ms-python.python
+    at K.installFromGallery (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:99:62705)
+2023-11-24 05:39:53.996 [error] Unknown error while installing extension ms-python.python: Error: Unknown error while installing extension ms-python.python
+    at K.installFromGallery (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:99:62705)
+2023-11-24 05:46:06.494 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2023-11-24 05:46:07.452 [error] [Extension Host] Error: spawn git ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:283:19)
+	at onErrorNT (node:internal/child_process:476:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-11-24 05:46:07.454 [error] [Extension Host] Error: Unexpected SIGPIPE
+	at process.<anonymous> (/opt/visual-studio-code/resources/app/out/bootstrap.js:1:471)
+	at process.emit (node:events:513:28)
+2023-11-24 05:46:08.457 [error] spawn git ENOENT: Error: spawn git ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:283:19)
+	at onErrorNT (node:internal/child_process:476:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)

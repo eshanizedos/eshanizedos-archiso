@@ -1,0 +1,7 @@
+2023-11-24 05:40:02.935 [info] [Info  - 5:40:02 AM] (212436) Pylance language server 2023.11.10 (pyright 088ebaa5) starting
+2023-11-24 05:40:02.935 [info] [Info  - 5:40:02 AM] (212436) Server root directory: /home/eshanized/.vscode/extensions/ms-python.vscode-pylance-2023.11.10/dist
+2023-11-24 05:40:02.936 [info] [Info  - 5:40:02 AM] (212436) Starting service instance "eshanizedos-archiso"
+2023-11-24 05:40:03.016 [info] [Info  - 5:40:03 AM] (212436) Setting pythonPath for service "eshanizedos-archiso": "/bin/python"
+2023-11-24 05:40:03.016 [info] [Info  - 5:40:03 AM] (212436) Setting environmentName for service "eshanizedos-archiso": "3.11.6 (global)"
+2023-11-24 05:40:03.060 [info] [Info  - 5:40:03 AM] (212436) Assuming Python version 3.11
+2023-11-24 05:40:03.152 [info] [Info  - 5:40:03 AM] (212436) No source files found.

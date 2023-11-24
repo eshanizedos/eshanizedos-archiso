@@ -1,0 +1,26 @@
+2023-11-24T00:02:52.171Z - info: [ui] [AppStore] loading 0 repositories from store
+2023-11-24T00:02:52.184Z - info: [ui] [AppStore] found account: eshanized (Eshan Roy (Eshanized))
+2023-11-24T00:02:52.245Z - info: [ui] launching: 3.3.3-linux2 (Linux 6.6.2-arch1-1)
+2023-11-24T00:02:52.248Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2023-11-24T00:02:53.031Z - info: [ui] Subscribed 'eshanized' to Alive channel
+2023-11-24T00:02:53.383Z - info: [ui] Stats reported.
+2023-11-24T00:03:05.082Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/eshanizedos/eshanizedos-archiso.git - eshanized (has token)
+2023-11-24T00:06:45.977Z - info: [ui] [AppStore] loading 0 repositories from store
+2023-11-24T00:06:45.990Z - info: [ui] [AppStore] found account: eshanized (Eshan Roy (Eshanized))
+2023-11-24T00:06:46.053Z - info: [ui] launching: 3.3.3-linux2 (Linux 6.6.2-arch1-1)
+2023-11-24T00:06:46.063Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2023-11-24T00:06:51.505Z - info: [ui] Subscribed 'eshanized' to Alive channel
+2023-11-24T00:06:59.796Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/eshanizedos/eshanizedos-archiso.git - eshanized (has token)
+2023-11-24T00:07:20.781Z - info: [ui] Executing clone: git -c credential.helper= -c init.defaultBranch=master clone --recursive --progress -- https://github.com/eshanizedos/eshanizedos-archiso.git /home/eshanized/GitHub/eshanizedos-archiso (took 20.983s)
+2023-11-24T00:07:20.831Z - info: [ui] [AppStore] adding repository at /home/eshanized/GitHub/eshanizedos-archiso to store
+2023-11-24T00:09:16.535Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: eshanizedos-archiso - eshanized (has token)
+2023-11-24T00:15:13.657Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 3.1s of which 355.4s paused, total 358.5s
+2023-11-24T00:16:31.259Z - info: [ui] [AppStore] loading 1 repositories from store
+2023-11-24T00:16:31.268Z - info: [ui] [AppStore] found account: eshanized (Eshan Roy (Eshanized))
+2023-11-24T00:16:31.304Z - info: [ui] [BranchPruner] Last prune took place 9 minutes ago - skipping
+2023-11-24T00:16:31.383Z - info: [ui] launching: 3.3.3-linux2 (Linux 6.6.2-arch1-1)
+2023-11-24T00:16:31.385Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2023-11-24T00:16:32.631Z - info: [ui] Subscribed 'eshanized' to Alive channel
+2023-11-24T00:16:33.800Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/eshanizedos/eshanizedos-archiso.git - eshanized (has token)
+2023-11-24T00:16:51.403Z - info: [ui] Executing clone: git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- https://github.com/eshanizedos/eshanizedos-archiso.git /home/eshanized/GitHub/eshanizedos-archiso (took 17.577s)
+2023-11-24T00:16:51.615Z - info: [ui] [BranchPruner] Last prune took place 10 minutes ago - skipping

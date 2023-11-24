@@ -3,8 +3,8 @@
 # wallpaper var
 EnableWallDcol=0
 ConfDir="$HOME/.config"
-CloneDir="$HOME/Hyprdots"
-ThemeCtl="$ConfDir/swww/wall.ctl"
+CloneDir="/home/eshanized/hyprdots"
+ThemeCtl="$ConfDir/hypr/theme.ctl"
 cacheDir="$ConfDir/swww/.cache"
 
 # theme var
