@@ -1,0 +1,9 @@
+NAME=EshanizedOS
+ID=eshanizedos
+ID_LIKE=arch
+BUILD_ID=rolling
+ANSI_COLOR="0;36"
+HOME_URL="https://eshanizedos.github.io/"
+SUPPORT_URL="https://eshanizedos.github.io/"
+BUG_REPORT_URL="https://eshanizedos.github.io/"
+LOGO=
