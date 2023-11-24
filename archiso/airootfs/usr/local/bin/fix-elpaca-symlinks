@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+#
+# Script name: fix-elpaca-symlinks 
+# Description: Fix Emacs elpaca symlinks from the 'dtos' liveuser to real $USER after installtion.
+
+elpacaDir="$HOME/.config/emacs/elpaca/builds/"
+
+readarray -t theTargets < <(symlinks -rv "$elpacaDir")
+
+for i in "${theTargets[@]}"
+do
+    theFile=$(echo "$i" | awk '{print $2}') 
+    newTarget=$(echo "$i" | awk '{print $4}' | sed "s#/home/dtos#/home/$USER#g")
+    ln -sf "$newTarget" "$theFile" || echo "Error! Could not create new target for this file."
+done
+

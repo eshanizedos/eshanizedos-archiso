@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#
+# Script name: configuring-emacs
+# Description: Forces emacs to run through a configuration install after the DTOS installer has completed
+# GitLab: https://www.gitlab.com/dtos/dtos
+# Contributors: Derek Taylor
+
+yes | sudo pacman -R calamares gparted
+

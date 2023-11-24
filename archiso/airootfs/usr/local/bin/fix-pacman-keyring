@@ -1,4 +1,9 @@
 #!/usr/bin/env bash
+#
+# Script name: fix-pacman-keyring
+# Description: Forces pacman to initialixe and populate keyring.
+# GitLab: https://www.gitlab.com/dtos/dtos
+# Contributors: Derek Taylor
 
 sudo rm -rf /etc/pacman.d/gnupg/ || echo "Directory not found"
 sudo pacman-key --init
